@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    
+    <!--css link-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Negosiante</title>
+</head>
+<body>
+
+    
+
+    <!--navbar start-->
+    <section>
+        <header>
+            <div class="container nav" style="z-index: 1;">
+                <div>
+                    <a href="#"><img class="logo-main" src="./assets/logo.svg"></a>
+                </div>
+
+                <div class="hide">
+                    <div class="search-wrapper">
+                        <input class="search-input" type="text" placeholder="Find food, beverages, entertainment, and etc....">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search" viewBox="0 0 24 24">
+                          <defs></defs>
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <path d="M21 21l-4.35-4.35"></path>
+                        </svg>
+                    </div>
+                </div>
+
+
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Become a negotiator</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-flatbed"></i></a></li>
+                        <li><a href="#"><i style="font-size: 16px;" class="fa-solid fa-message-lines"></i></a></li>
+                    </ul>
+                </nav>
+
+            <!-- <a class="cta" href="#">LOGIN / REGISTER</a> -->
+            <p class="menu cta">Menu</p>
+            </div>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay-content">
+
+                <div class="search-wrapper">
+                    <input class="search-input" type="text" placeholder="Find food, beverages, entertainment, and etc....">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search" viewBox="0 0 24 24">
+                      <defs></defs>
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                </div>
+                
+                <a class="mt-3" href="#">Become a negotiator</a>
+                <a href="#"><i class="fa-solid fa-cart-flatbed"></i></a>
+                <a href="#"><i class="fa-solid fa-message-lines"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--navbar end-->
+
+
+
+
+
+    <section id="" class="">
+        <div class="container d-block mt-5">
+            <div>
+                <h1 class="heading">Discover Business</h1>
+            </div>
+            
+            <div class="dropdown d-flex justify-content-center">
+                <div class="d-flex align-items-center">
+                    <span><i style="font-size: 20px;" class="fa-solid fa-location-dot"></i>  Manila  <i style="font-size: 20px;" class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                
+                <div class="dropdown-content">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#" class="dropdown-link">Caloocan</a>
+                        <a href="#" class="dropdown-link">Las Piñas</a>
+                        <a href="#" class="dropdown-link">Makati</a>
+                        <a href="#" class="dropdown-link">Malabon</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="dropdown-link">Marikina</a>
+                        <a href="#" class="dropdown-link">Muntinlupa</a>
+                        <a href="#" class="dropdown-link">Navotas</a>
+                        <a href="#" class="dropdown-link">Parañaque</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="dropdown-link">Pasig</a>
+                        <a href="#" class="dropdown-link">Pateros</a>
+                        <a href="#" class="dropdown-link">Quezon City</a>
+                        <a href="#" class="dropdown-link">San Juan</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="dropdown-link">Valenzuela</a>
+                        <a href="#" class="dropdown-link">Taguig</a>
+                        <a href="#" class="dropdown-link">Pasay</a>
+                        <a href="#" class="dropdown-link">Mandaluyong</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Tranding section start-->
+    <section id="trandingSection">
+        <div class="container">
+            <div class="d-flex justify-content-center mt-5">
+                <div id="navTab" class="tablink-bg">
+                    <button class="btn-primary tablink active" onclick="openSection(event,'popular')">Popular</button>
+                    <button class="btn-primary tablink" onclick="openSection(event,'newest')">Newest</button>
+                    <button class="btn-primary tablink" onclick="openSection(event,'nearby')">Nearby</button>
+                </div>
+            </div>
+            
+              
+              <div id="popular" class="section mt-md-7 mt-5">
+    
+                <div class="slider">
+    
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-1.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Sports Attire</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-2.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Furnitures</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-3.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Graphics Design</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+    
+                </div>
+    
+              </div>
+            
+              <div id="newest" class="section mt-md-7 mt-5" style="display: none;">
+                
+                <div class="slider">
+                    
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-1.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Sports Attire</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-2.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Furnitures</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-3.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Graphics Design</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+    
+                </div>
+    
+              </div>
+            
+              <div id="nearby" class="section mt-md-7 mt-5" style="display: none;">
+                
+                <div class="slider">
+                    
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-1.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Sports Attire</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-2.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Furnitures</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand-3.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Graphics Design</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+        
+                    <a id="popularCategories" href="#">
+                        <div class="card mx-2">
+                            <div class="card-head">
+                                <img src="./assets/brand-logo.png">
+                            </div>
+                            <img class="card-img" src="./assets/brand.png">
+                            <div style="position: relative; bottom: 20%;">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <h4 class="fw-medium" style="color: white;">Zara</h4>
+                                    <p class="d-flex align-items-center fw-medium m-0" style="color: white;"><samp><i class="fa-solid fa-star me-1"></i></samp>5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-2">Fashion</p>
+                    </a>
+    
+                </div>
+    
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--Tranding section end-->
+
+    <!--categories section start-->
+    <section id="categories">
+        <div class="container mt-md-8 mt-7">
+            <div class="d-flex justify-content-between">
+                <h4>Categories</h4>
+                <a href="#">see all</a>
+            </div>
+
+            <div class="d-flex justify-content-center mt-3">
+                <div id="">
+                    <button class="categories-link active" onclick="openLink(event,'food')">Food</button>
+                    <button class="categories-link" onclick="openLink(event,'fashion')">Fashion</button>
+                    <button class="categories-link" onclick="openLink(event,'graphicsDesign')">Graphics Design</button>
+                    <button class="categories-link" onclick="openLink(event,'consultation')">Consultation</button>
+                    <button class="categories-link" onclick="openLink(event,'printingService')">Printing Service</button>
+                    <button class="categories-link" onclick="openLink(event,'petGrooming')">Pet Grooming</button>
+                    <button class="categories-link" onclick="openLink(event,'automotive')">Automotive</button>
+                </div>
+            </div>
+
+            <div id="food" class="categories mt-3">
+
+                <div class="slider">
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/food.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+    
+                </div>
+
+            </div>
+            <div id="fashion" class="categories" style="display:none; margin-top: 1rem;">
+            
+                <div class="slider">
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+        
+                    <a href="#">
+                        <div class="card mx-2">
+                            <img class="card-img" src="./assets/fashion.png">
+                        </div>
+                        <div class="text-center mt-2">
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star star-color"></i></samp>
+                            <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                        </div>
+                        <p class="text-center">Sisig Lover</p>
+                    </a>
+    
+                </div>
+            
+            </div>
+            <div id="graphicsDesign" class="categories" style="display:none; margin-top: 4rem;">B</div>
+            <div id="consultation" class="categories" style="display:none; margin-top: 4rem;">I</div>
+            <div id="printingService" class="categories" style="display:none; margin-top: 4rem;">L</div>
+            <div id="petGrooming" class="categories" style="display:none; margin-top: 4rem;"></div>
+            <div id="automotive" class="categories" style="display:none; margin-top: 4rem;"></div>
+        </div>
+    </section>
+    <!--categories section end-->
+
+    <!--Place section start-->
+    <section id="placeSection">
+        <div class="container mt-md-8 mt-7">
+            <div class="d-flex justify-content-between">
+                <h4>Place</h4>
+                <a href="#">see all</a>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place.png">
+                        <p class="fw-medium">Manila</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place-2.png">
+                        <p class="fw-medium">Muntinlupa</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place-3.png">
+                        <p class="fw-medium">Valenzuela</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place-2.png">
+                        <p class="fw-medium">Muntinlupa</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place-3.png">
+                        <p class="fw-medium">Pateros</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place.png">
+                        <p class="fw-medium">Taguig</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place-2.png">
+                        <p class="fw-medium">Caloocan</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mt-md-5 mt-4 d-flex justify-content-start">
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="place-img me-3" src="./images/place.png">
+                        <p class="fw-medium word-break">Mandaluyong</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--place section end-->
+
+    <!--rising star section satart-->
+    <section id="risingStarSection">
+        <div class="container mt-md-8 mt-7">
+
+            <h4>Rising Star</h4>
+
+            <div class="slider mt-5">
+
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a id="risingStar" href="#">
+                    <div class="r-star-card mx-2">
+                        <div class="r-star-card-head">
+                            <img src="./assets/brand-logo.png">
+                        </div>
+                        <img class="r-star-card-img" src="./assets/brand.png">
+                        
+                        <div class="text-center p-2">
+                            <p style="color: var(--primary-black);">“The items are in very good quality”</p>
+                            <p style="color: var(--primary-black);">-John mayer</p>
+
+                            <h5 class="m-0 mt-4" style="color: var(--secondary-black);">Grass Co.</h5>
+                            <h5 class="m-0">Artifical grass</h5>
+                            <div class="mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!--rising star section end-->
+
+    <!--footer section start-->
+    <section id="footerSection" class="mt-md-8 mt-7">
+        <div style="border-top: 2px solid; color: var(--secondary-black);"></div>
+        <div class="container mt-md-7 mt-5">
+            <div class="row">
+                <div class="col-md-3 col-6 text-md-start mt-4">
+                    <h5>Get to know us</h5>
+                    <div class="d-grid">
+                        <a href="#" class="fw-medium footer-link mt-2">Privacy Policy</a>
+                        <a href="#" class="fw-medium footer-link mt-2">Terms of use</a>
+                        <a href="#" class="fw-medium footer-link mt-2">About Negosiante</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-md-start mt-4">
+                    <h5>Grow with us</h5>
+                    <div class="d-grid">
+                        <a href="#" class="fw-medium footer-link mt-2">Become a negotiator</a>
+                        <a href="#" class="fw-medium footer-link mt-2">Invite a Friend</a>
+                        <a href="#" class="fw-medium footer-link mt-2">Create an account</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-md-start mt-4">
+                    <h5>Get help</h5>
+                    <div class="d-grid">
+                        <a href="#" class="fw-medium footer-link mt-2">Enlisting your business on Negosiante</a>
+                        <a href="#" class="fw-medium footer-link mt-2">Buying on Negosiante</a>
+                        <a href="#" class="fw-medium footer-link mt-2">FAQ</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mt-4">
+                    <h5>Newsletter</h5>
+                    <p class="pt-2 fw-medium" style="color: var(--secondary-black);">Subscribe and be updated!</p>
+                </div>
+            </div>
+            <div class="mt-7" style="border-top: 2px solid; color: var(--secondary-black);"></div>
+            <div class="d-md-flex justify-content-between align-items-center my-4">
+                <div class="d-flex justify-md-content-start justify-content-center align-items-center" style="color: var(--secondary-black);">
+                    <img class="footer-logo me-2" src="./assets/footer-logo.svg">
+                    <i class="fa-solid fa-copyright me-2"></i>
+                    <p>2022</p>
+                </div>
+                <div class="d-flex justify-content-center mt-md-0 mt-3">
+                    <a href="#" class="social-link me-2"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-link me-2"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!--footer section end-->
+
+
+
+    <!-- <section>
+        <div class="warpper">
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+            <input class="radio" id="three" name="group" type="radio">
+            <input class="radio" id="four" name="group" type="radio">
+            <input class="radio" id="five" name="group" type="radio">
+            <input class="radio" id="six" name="group" type="radio">
+            <input class="radio" id="seven" name="group" type="radio">
+            <div class="tabs">
+                <label class="tab mx-2" id="one-tab" for="one">Food</label>
+                <label class="tab mx-2" id="two-tab" for="two">Fashion</label>
+                <label class="tab mx-2" id="three-tab" for="three">Graphics Design</label>
+                <label class="tab mx-2" id="four-tab" for="four">Food</label>
+                <label class="tab mx-2" id="five-tab" for="five">Fashion</label>
+                <label class="tab mx-2" id="six-tab" for="six">Graphics Design</label>
+                <label class="tab mx-2" id="seven-tab" for="seven">Graphics Design</label>
+            </div>
+            <div class="panels">
+                <div class="container panel" id="one-panel">
+
+                    <div class="slider">
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/food.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+        
+                    </div>
+
+                </div>
+                <div class="container panel" id="two-panel">
+
+                    <div class="slider">
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+            
+                        <a href="#">
+                            <div class="card mx-2">
+                                <img class="card-img" src="./assets/fashion.png">
+                            </div>
+                            <div class="text-center mt-2">
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star star-color"></i></samp>
+                                <samp><i class="fa-solid fa-star-half-stroke star-color"></i></samp>
+                            </div>
+                            <p class="text-center">Sisig Lover</p>
+                        </a>
+        
+                    </div>
+
+                </div>
+                <div class="panel" id="three-panel">
+                    <div class="panel-title">Note on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+
+                <div class="panel" id="four-panel">
+                    <div class="panel-title">N on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+
+                <div class="panel" id="five-panel">
+                    <div class="panel-title">N on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+
+                <div class="panel" id="six-panel">
+                    <div class="panel-title">N on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+                <div class="panel" id="seven-panel">
+                    <div class="panel-title">N on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="./js/custom.js"></script>
+    <script type="text/javascript" src="./js/select2.js"></script>
+      
+    
+</body>
+</html>
